@@ -9,8 +9,7 @@ img {
 
 .button{
   background-color: white;
-  border: none;
-  border-bottom: pink 2px;
+  border:none;
   color: black;
   padding: 15px 32px;
   text-align: center;
@@ -19,3 +18,8 @@ img {
   font-size: 16px;
 }
 
+.modal-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -5,10 +5,6 @@
         font-family: sans-serif;
     }
 
-    img {
-        width: 50vw;
-    }
-
     .main-section {
         background-color: aqua;
         display: flex;
@@ -20,6 +16,44 @@
         margin-top:20px;
         display: flex;
         justify-content: center;
+    }
+
+    .illu-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    .illu-item{
+        height: 100px;
+        width: 100px;
+        background-color: orange;
+        margin: 5px;
+    }
+
+    .illu-icon{
+        height: 100px;
+        width: 100px;
+        object-fit: cover;
+    }
+
+    .ani-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .ani-item{
+        height: 100px;
+        width: 100px;
+        background-color: fuchsia;
+        margin: 5px;
+    }
+
+    .ani-img{
+        background-color: yellow;
+        width: auto;
+        height: auto;
     }
 
 }
