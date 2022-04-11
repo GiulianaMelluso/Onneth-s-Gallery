@@ -2,16 +2,76 @@
 <html lang="en">
 
 <head>
+    <title>Onneth's gallery</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <title>Onneth's gallery</title>
 
-    <script src="./js/main.js"></script>
+    <!--JQUERY--->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!--BOOTSTRAP--->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+
+    <!--STYLES-->
     <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/media-queries.css">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+
+
 </head>
+
 <body>
 
+    <div class="main-section">
+        <img src="images/logo.jpg" class="logo">
+    </div>
+
+    <div class="btn-container">
+        <!--Animaciones-->
+        <button type="button" class="button" id="button1" data-toggle="collapse" href="#collapse1" role="button" aria-expanded="false"
+        aria-controls="collapse1">Animations</button>
+        <!--Ilustraciones-->
+        <button type="button" class="button" id="button2" data-toggle="collapse" href="#collapse2" role="button" aria-expanded="false"
+        aria-controls="collapse2">Illustrations</button>
+        <!--About-->
+        <button type="button" class="button" id="button3" data-toggle="collapse" href="#collapse3" role="button" aria-expanded="false"
+        aria-controls="collapse3">About</button>
+    </div>
+
+    <div class="collapse" id="collapse1">
+        <div class="card card-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim
+            keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+        </div>
+    </div>
+
+    <div class="collapse" id="collapse2">
+        <div class="card card-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim
+            keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+        </div>
+    </div>
+
+    <div class="collapse" id="collapse3">
+        <div class="card card-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim
+            keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+        </div>
+    </div>
+
+    <!--JAVASCRIPT-->
+    <script src="./js/main.js"></script>
 </body>
-</html>g
+
+</html>

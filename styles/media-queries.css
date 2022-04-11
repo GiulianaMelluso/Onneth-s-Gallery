@@ -1,0 +1,25 @@
+/*MOBILE*/
+@media (max-width: 767px) {
+    body {
+        background-color: red;
+        font-family: sans-serif;
+    }
+
+    img {
+        width: 50vw;
+    }
+
+    .main-section {
+        background-color: aqua;
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn-container {
+        background-color: blue;
+        margin-top:20px;
+        display: flex;
+        justify-content: center;
+    }
+
+}

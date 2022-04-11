@@ -1,0 +1,21 @@
+body{
+    background-color: green;
+    font-family: sans-serif;
+}
+
+img {
+    width: 50vw;
+}
+
+.button{
+  background-color: white;
+  border: none;
+  border-bottom: pink 2px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
